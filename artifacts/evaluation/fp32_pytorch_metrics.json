@@ -1,0 +1,19 @@
+{
+  "val_loss": 0.25783440470695496,
+  "val_accuracy": 0.910184141300263,
+  "val_precision": 0.43617021276595747,
+  "val_recall": 0.3813953488372093,
+  "val_f1": 0.40694789081885857,
+  "val_runtime": 99.2908,
+  "val_samples_per_second": 26.8,
+  "val_steps_per_second": 26.8,
+  "epoch": 3.0,
+  "test_loss": 0.2603917717933655,
+  "test_accuracy": 0.9094325441563322,
+  "test_precision": 0.4365482233502538,
+  "test_recall": 0.39814814814814814,
+  "test_f1": 0.41646489104116224,
+  "test_runtime": 99.9279,
+  "test_samples_per_second": 26.629,
+  "test_steps_per_second": 26.629
+}

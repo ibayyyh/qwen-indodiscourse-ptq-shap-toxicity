@@ -1,0 +1,45 @@
+# Environment
+venv/
+.venv/
+__pycache__/
+*.pyc
+
+# Artifacts berat (model, ONNX, checkpoint) - jangan di-commit ke GitHub
+# Hapus baris di bawah jika ingin menyertakan artifact kecil (mis. JSON/CSV hasil evaluasi)
+artifacts/**/*.bin
+artifacts/**/*.safetensors
+artifacts/**/*.onnx
+artifacts/**/checkpoint-*/
+artifacts/**/trainer_checkpoints/
+
+# Biarkan struktur folder tetap ada di git walau isinya kosong
+!artifacts/**/.gitkeep
+
+# Notebook checkpoints
+.ipynb_checkpoints/
+
+# OS / editor
+.DS_Store
+.vscode/
+*.swp
+
+# Dataset besar (opsional: uncomment jika tidak mau commit CSV mentah ke GitHub)
+# data/*.csv
+
+# ONNX external data
+/artifacts/onnx/*.onnx.data
+
+# Large generated model artifacts
+artifacts/onnx/*.onnx
+artifacts/onnx/*.onnx.data
+artifacts/quantized/*.onnx
+artifacts/fp32/**/*.safetensors
+artifacts/fp32/**/training_args.bin
+artifacts/fp32/trainer_run/
+artifacts/runs/
+
+# Python environments and cache
+venv/
+.venv/
+__pycache__/
+*.py[cod]

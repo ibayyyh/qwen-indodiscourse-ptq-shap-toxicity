@@ -1,0 +1,9 @@
+,mean,std
+cosine_fp32_vs_dynamic,0.6645,0.2444
+cosine_fp32_vs_static,0.136,0.1826
+pearson_fp32_vs_dynamic,0.6598,0.2497
+pearson_fp32_vs_static,0.1314,0.1769
+spearman_fp32_vs_dynamic,0.6583,0.1182
+spearman_fp32_vs_static,0.0754,0.1128
+jaccard_top5_fp32_vs_dynamic,0.4104,0.3285
+jaccard_top5_fp32_vs_static,0.0959,0.1424
